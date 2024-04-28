@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="shortcut icon" href="./cv.png">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%; /* Largeur du tableau, 80% de la largeur de l'écran */
+            margin: 20px auto; /* Centrer le tableau */
+        }
+
+        th, td {
+            border: 1px solid black; /* Bordure fine */
+            padding: 10px; /* Espacement du contenu à l'intérieur des cellules */
+            font-family: sans-serif;
+        }
+
+        .no-border {
+            border: none; /* Supprimer la bordure */
+        }
+
+        /* Alignement de l'image */
+        img {
+            float: right; /* Alignement à droite */
+            margin: 20px; /* Espacement autour de l'image */
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+        }
+        .bac , .diplome{
+            float: right;
+            font-family: sans-serif;
+        }
+        .formations{
+            position: absolute;
+            top: 42%;
+            margin-top: 0; 
+            margin-bottom: 0;
+            color: red;
+        }
+        .exp_prof{
+            position: absolute;
+            top: 56.5%;
+            margin-top: 0; 
+            margin-bottom: 0;
+            color: red;
+        }
+        .comptences{
+            position: absolute;
+            top:71%;
+            margin-top: 0; 
+            margin-bottom: 0;
+            color: red;
+        }
+        .info_supplementaire{
+            position: absolute;
+            top:88%;
+            margin-top: 0; 
+            margin-bottom: 0;
+            color: red;
+        }
+        .fait_par{
+            font-family: sans-serif;
+            color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tableau avec les informations du CV -->
+    <table>
+        <caption>
+            <p class="fait_par"> Fait Par : <strong>Neyrouz Khrouf</strong></p>
+          </caption>
+        <tr>
+            <td colspan="2">
+                <!-- Contenu ajouté -->
+                <img src="photo.jpg" class="photo" alt="Votre Photo">
+                <p>Prénom : <strong>Khrouf </strong> </p>
+                <p>Nom : <strong>Neyrouz</strong></p>
+                <p> Adresse : <strong>Ghannouche Gabes Tunisie </strong></p>
+                <p>Date de Naissance : <strong>28/08/2004</strong></p>
+                <p class="formations" > <strong>Formations</strong> </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <ul>
+                    <li>2022 - 2023 <strong class="bac">Baccalauréat</strong></li>
+                    <li>2023 - présent  <strong class="diplome">Diplome en Anesthésie et Réanimation</strong></li>
+                </ul>
+                <p class="exp_prof" > <strong>Experience professionnelle</strong> </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <ul>
+                    <li>2023 <strong class="bac">Stage à l'hopital Rabta </strong></li>
+                    <li>2024 - présent  <strong class="diplome">Stage à Hopital Charles Nicoles</strong></li>
+                </ul>
+                <p class="comptences" > <strong>Compétences</strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <ul>
+                    <li>2022  <strong class="diplome">Delf B2 en Français</strong></li>
+                    <li>2024 - présent  <strong class="bac">Compétences en Developpement Web </strong></li>
+                    <li>2024 - présent  <strong class="diplome">Compétences en Communication </strong></li>
+                    
+                </ul>
+                <p class="info_supplementaire" > <strong>Informations Supplémentaires</strong> </p>
+            </td>
+  
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <ul>
+                    <li>2024 - Présent <strong class="bac">Formation sur la plateform le wagon</strong></li>
+                    <li>2024 - Présent  <strong class="diplome">Formation en developpement sociale </strong></li>
+                </ul>
+            </td>
+        </tr>
+    
+                
+    </table>
+</body>
+</html>
